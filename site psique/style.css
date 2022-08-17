@@ -4,7 +4,14 @@ body{background: #d7b9f0;
 {"banner"  src="banner.jpg">
 }
 
-h1 {text-align:center 
+.imagem2{
+width: 75px;
+height: 75px;
+}
+
+h1 {
+   text-align:center
+   color:  
 }
    em strong {color:rgb(50, 14, 83)}  
 
@@ -16,3 +23,18 @@ p {text-align:center;
 }
 
 em strong {color:blueviolet}
+
+.itens{
+   list-style: none;
+}
+
+li::marker{
+   content: "\03A8"
+}
+
+ul{
+   display:inline-block;
+   vertical-align: top;
+   margin: 120px;
+   
+}
